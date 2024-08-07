@@ -1,0 +1,29 @@
+{
+  "messaging_product": "whatsapp",
+  "to": "918788530002",
+  "type": "interactive",
+  "interactive": {
+    "type": "button",
+    "body": {
+      "text": "What would you like to do next?"
+    },
+    "action": {
+      "buttons": [
+        {
+          "type": "reply",
+          "reply": {
+            "id": "GO_BACK",
+            "title": "Go Back"
+          }
+        },
+        {
+          "type": "reply",
+          "reply": {
+            "id": "END",
+            "title": "End"
+          }
+        }
+      ]
+    }
+  }
+}

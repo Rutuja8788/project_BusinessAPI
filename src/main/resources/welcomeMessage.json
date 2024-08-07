@@ -1,0 +1,29 @@
+{
+  "messaging_product": "whatsapp",
+  "to": "918788530002",
+  "type": "interactive",
+  "interactive": {
+    "type": "button",
+    "body": {
+      "text": "Welcome to XYZ Hospital! How can we assist you today?"
+    },
+    "action": {
+      "buttons": [
+        {
+          "type": "reply",
+          "reply": {
+            "id": "HOSPITAL_INFO",
+            "title": "Hospital Info"
+          }
+        },
+        {
+          "type": "reply",
+          "reply": {
+            "id": "HOSPITAL_WARD",
+            "title": "Hospital WARD"
+          }
+        }
+      ]
+    }
+  }
+}
